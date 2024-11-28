@@ -6,7 +6,7 @@ import logging
 app = Flask(__name__)
 
 # Configure the database URI (Change this as needed)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:aadhi@localhost:3306/study_db'  
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:localhost:/study_db'  
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['DEBUG'] = True
 
