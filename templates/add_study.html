@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Study</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Add Study</h1>
+    <form method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label>Description:</label>
+        <input type="text" name="description" required><br>
+
+        <label>Phase:</label>
+        <select name="phase" required>
+            <option value="I">Phase I</option>
+            <option value="II">Phase II</option>
+            <option value="III">Phase III</option>
+            <option value="IV">Phase IV</option>
+            <option value="V">Phase V</option>
+        </select><br>
+
+        <label>Sponsor Name:</label>
+        <input type="text" name="sponsor_name"><br>
+
+        <button type="submit">Add Study</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+</html>

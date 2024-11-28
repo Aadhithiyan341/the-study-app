@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Studies</h1>
+        <a href="{{ url_for('add_study') }}" class="add-button">Add Study</a>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Study Name</th>
+                        <th>Phase</th>
+                        <th>Description</th>
+                        <th>Sponsor Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for study in studies %}
+                    <tr>
+                        <td>{{ study.name }}</td>
+                        <td>{{ study.phase }}</td>
+                        <td>{{ study.description }}</td>
+                        <td>{{ study.sponsor_name }}</td>
+                        <td>
+                            <a href="{{ url_for('update_study', id=study.id) }}">Edit</a> |
+                            <a href="{{ url_for('delete_study', id=study.id) }}" onclick="return confirm('Are you sure you want to delete this study?');">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

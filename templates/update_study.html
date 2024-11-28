@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Study</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Update Study</h1>
+    <form method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" value="{{ study.name }}" required><br>
+
+        <label>Description:</label>
+        <input type="text" name="description" value="{{ study.description }}" required><br>
+
+        <label>Phase:</label>
+        <select name="phase" required>
+            <option value="I" {% if study.phase == 'I' %}selected{% endif %}>Phase I</option>
+            <option value="II" {% if study.phase == 'II' %}selected{% endif %}>Phase II</option>
+            <option value="III" {% if study.phase == 'III' %}selected{% endif %}>Phase III</option>
+            <option value="IV" {% if study.phase == 'IV' %}selected{% endif %}>Phase IV</option>
+            <option value="V" {% if study.phase == 'V' %}selected{% endif %}>Phase V</option>
+        </select><br>
+
+        <label>Sponsor Name:</label>
+        <input type="text" name="sponsor_name" value="{{ study.sponsor_name }}"><br>
+
+        <button type="submit">Update Study</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+</html>

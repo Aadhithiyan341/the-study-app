@@ -1,0 +1,72 @@
+2024-09-19 22:46:01,239 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-19 22:46:01,240 INFO:[33mPress CTRL+C to quit[0m
+2024-09-19 22:46:01,256 INFO: * Restarting with stat
+2024-09-19 22:46:03,121 WARNING: * Debugger is active!
+2024-09-19 22:46:03,121 INFO: * Debugger PIN: 328-199-573
+2024-09-19 22:46:20,554 INFO:127.0.0.1 - - [19/Sep/2024 22:46:20] "GET / HTTP/1.1" 200 -
+2024-09-19 22:46:24,770 INFO:127.0.0.1 - - [19/Sep/2024 22:46:24] "GET /add_study HTTP/1.1" 200 -
+2024-09-19 22:46:27,741 INFO:127.0.0.1 - - [19/Sep/2024 22:46:27] "GET / HTTP/1.1" 200 -
+2024-09-22 16:14:14,327 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-22 16:14:14,330 INFO:[33mPress CTRL+C to quit[0m
+2024-09-22 16:14:14,406 INFO: * Restarting with stat
+2024-09-22 16:14:21,069 WARNING: * Debugger is active!
+2024-09-22 16:14:21,133 INFO: * Debugger PIN: 929-136-693
+2024-09-22 16:14:31,040 INFO:127.0.0.1 - - [22/Sep/2024 16:14:31] "GET / HTTP/1.1" 200 -
+2024-09-22 16:14:31,130 INFO:127.0.0.1 - - [22/Sep/2024 16:14:31] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:14:31,406 INFO:127.0.0.1 - - [22/Sep/2024 16:14:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-22 16:14:36,870 INFO:127.0.0.1 - - [22/Sep/2024 16:14:36] "GET /add_study HTTP/1.1" 200 -
+2024-09-22 16:14:36,971 INFO:127.0.0.1 - - [22/Sep/2024 16:14:36] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:14:54,410 INFO:127.0.0.1 - - [22/Sep/2024 16:14:54] "[35m[1mPOST /add_study HTTP/1.1[0m" 500 -
+2024-09-22 16:14:56,164 INFO:127.0.0.1 - - [22/Sep/2024 16:14:56] "GET /add_study?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-22 16:14:57,099 INFO:127.0.0.1 - - [22/Sep/2024 16:14:57] "GET /add_study?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-22 16:14:57,646 INFO:127.0.0.1 - - [22/Sep/2024 16:14:57] "GET /add_study?__debugger__=yes&cmd=resource&f=console.png&s=mEwTrthmrH6bhZno0Vcu HTTP/1.1" 200 -
+2024-09-22 16:14:57,683 INFO:127.0.0.1 - - [22/Sep/2024 16:14:57] "GET /add_study?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-22 16:25:12,025 INFO:127.0.0.1 - - [22/Sep/2024 16:25:12] "[32mPOST /add_study HTTP/1.1[0m" 302 -
+2024-09-22 16:25:12,116 INFO:127.0.0.1 - - [22/Sep/2024 16:25:12] "GET / HTTP/1.1" 200 -
+2024-09-22 16:25:12,197 INFO:127.0.0.1 - - [22/Sep/2024 16:25:12] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:30:20,489 INFO:127.0.0.1 - - [22/Sep/2024 16:30:20] "GET / HTTP/1.1" 200 -
+2024-09-22 16:30:20,543 INFO:127.0.0.1 - - [22/Sep/2024 16:30:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:30:23,800 INFO:127.0.0.1 - - [22/Sep/2024 16:30:23] "GET / HTTP/1.1" 200 -
+2024-09-22 16:30:23,836 INFO:127.0.0.1 - - [22/Sep/2024 16:30:23] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:30:24,298 INFO:127.0.0.1 - - [22/Sep/2024 16:30:24] "GET / HTTP/1.1" 200 -
+2024-09-22 16:30:24,334 INFO:127.0.0.1 - - [22/Sep/2024 16:30:24] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:30:24,517 INFO:127.0.0.1 - - [22/Sep/2024 16:30:24] "GET / HTTP/1.1" 200 -
+2024-09-22 16:30:24,558 INFO:127.0.0.1 - - [22/Sep/2024 16:30:24] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:32:07,857 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-22 16:32:07,858 INFO:[33mPress CTRL+C to quit[0m
+2024-09-22 16:32:07,920 INFO: * Restarting with stat
+2024-09-22 16:32:14,099 WARNING: * Debugger is active!
+2024-09-22 16:32:14,110 INFO: * Debugger PIN: 929-136-693
+2024-09-22 16:32:26,266 INFO:127.0.0.1 - - [22/Sep/2024 16:32:26] "GET / HTTP/1.1" 200 -
+2024-09-22 16:32:26,356 INFO:127.0.0.1 - - [22/Sep/2024 16:32:26] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:32:32,492 INFO:127.0.0.1 - - [22/Sep/2024 16:32:32] "GET /add_study HTTP/1.1" 200 -
+2024-09-22 16:32:32,576 INFO:127.0.0.1 - - [22/Sep/2024 16:32:32] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:33:11,080 INFO:127.0.0.1 - - [22/Sep/2024 16:33:11] "[32mPOST /add_study HTTP/1.1[0m" 302 -
+2024-09-22 16:33:11,101 INFO:127.0.0.1 - - [22/Sep/2024 16:33:11] "GET / HTTP/1.1" 200 -
+2024-09-22 16:33:11,196 INFO:127.0.0.1 - - [22/Sep/2024 16:33:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:33:17,060 INFO:127.0.0.1 - - [22/Sep/2024 16:33:17] "[32mGET /delete_study/2 HTTP/1.1[0m" 302 -
+2024-09-22 16:33:17,076 INFO:127.0.0.1 - - [22/Sep/2024 16:33:17] "GET / HTTP/1.1" 200 -
+2024-09-22 16:33:17,139 INFO:127.0.0.1 - - [22/Sep/2024 16:33:17] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 16:33:41,951 INFO:127.0.0.1 - - [22/Sep/2024 16:33:41] "GET / HTTP/1.1" 200 -
+2024-09-22 16:33:42,211 INFO:127.0.0.1 - - [22/Sep/2024 16:33:42] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 21:00:00,444 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-22 21:00:00,505 INFO:[33mPress CTRL+C to quit[0m
+2024-09-22 21:00:00,612 INFO: * Restarting with stat
+2024-09-22 21:00:40,454 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-22 21:00:40,455 INFO:[33mPress CTRL+C to quit[0m
+2024-09-22 21:00:40,464 INFO: * Restarting with stat
+2024-09-22 21:00:43,346 WARNING: * Debugger is active!
+2024-09-22 21:00:43,419 INFO: * Debugger PIN: 476-784-617
+2024-09-22 21:00:51,038 INFO:127.0.0.1 - - [22/Sep/2024 21:00:51] "GET / HTTP/1.1" 200 -
+2024-09-22 21:00:51,341 INFO:127.0.0.1 - - [22/Sep/2024 21:00:51] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 21:00:51,802 INFO:127.0.0.1 - - [22/Sep/2024 21:00:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-22 21:00:55,370 INFO:127.0.0.1 - - [22/Sep/2024 21:00:55] "GET /add_study HTTP/1.1" 200 -
+2024-09-22 21:00:55,443 INFO:127.0.0.1 - - [22/Sep/2024 21:00:55] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-09-22 21:01:30,363 INFO:127.0.0.1 - - [22/Sep/2024 21:01:30] "[32mPOST /add_study HTTP/1.1[0m" 302 -
+2024-09-22 21:01:30,401 INFO:127.0.0.1 - - [22/Sep/2024 21:01:30] "GET / HTTP/1.1" 200 -
+2024-09-22 21:01:30,522 INFO:127.0.0.1 - - [22/Sep/2024 21:01:30] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
